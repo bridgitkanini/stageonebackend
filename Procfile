@@ -1,1 +1,1 @@
-web: gunicorn stageonebackend.wsgi
+web: gunicorn stageonebackend.wsgi:application
